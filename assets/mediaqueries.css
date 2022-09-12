@@ -29,6 +29,10 @@
     max-width: 300px;
   }
 
+  .div-card input::placeholder {
+    padding-left: 10px;
+  }
+
   .div-card input:focus {
     background-color: var(--violet-sec);
     border-bottom: none;
