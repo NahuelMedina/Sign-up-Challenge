@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <link rel="stylesheet" href="/assets/mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sign-up</title>
+  </head>
+  <body>
+    <section class="div-container">
+      <div class="div-card">
+        <div class="div-img">
+          <img src="/assets/Zeronet_logo.png" alt="logo empresa" />
+        </div>
+        <form action="sign-up">
+          <label for="user"></label>
+          <input type="text" placeholder="User" id="user" required />
+          <label for="email"></label>
+          <input type="email" placeholder="Email" id="email" required />
+          <label for="password"></label>
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            required
+          />
+          <div class="div-button">
+            <button type="submit">
+              SIGN UP <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="sign-in">
+        <p>Already have an accout? <a href="#">sign in</a></p>
+      </div>
+    </section>
+  </body>
+</html>
