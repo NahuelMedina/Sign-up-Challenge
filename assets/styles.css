@@ -100,24 +100,24 @@
   transition: all 0.4s ease-in;
 }
 
-.div__text {
+.div__question {
   position: relative;
   top: 10px;
   right: 100px;
 }
 
-.div__text p {
+.div__question p {
   color: var(--white);
   font-size: 14px;
 }
 
-.div__text a {
+.div__question a {
   text-decoration: none;
   color: var(--white);
   border-bottom: 1px solid var(--white);
 }
 
-.div__text a:hover {
+.div__question a:hover {
   color: var(--violet);
   border-bottom: 1px solid var(--violet);
   transition: all 0.4s ease-in;
