@@ -15,7 +15,7 @@
   --grey: #7f8487;
 }
 
-.div-container {
+.main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@
   background: linear-gradient(to right bottom, var(--violet), var(--black));
 }
 
-.div-card {
+.card__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,18 +38,18 @@
   box-shadow: 2px 2px 15px var(--black);
 }
 
-.div-img img {
+.card__container__logo img {
   width: 80px;
   height: 80px;
 }
 
-.div-card form {
+.card__container__form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.div-card input {
+.card__container input {
   width: 350px;
   height: 35px;
   border: none;
@@ -61,23 +61,24 @@
   background-color: var(--white);
 }
 
-.div-card input::placeholder {
+.card__container input::placeholder {
   font-weight: 400;
   font-size: 17px;
   color: var(--violet);
+  opacity: 0.7;
 }
 
-.div-card input:focus {
+.card__container input:focus {
   border-bottom: 2px solid var(--violet);
 }
 
-.div-button {
+.btn__container {
   display: flex;
   justify-content: center;
   padding-top: 30px;
 }
 
-.div-button button {
+.btn__container button {
   width: 180px;
   height: 40px;
   border: none;
@@ -93,30 +94,30 @@
   box-shadow: 1px 1px 5px var(--grey);
 }
 
-.div-button button:hover {
+.btn__container button:hover {
   cursor: pointer;
   border-radius: 15px;
   transition: all 0.4s ease-in;
 }
 
-.sign-in {
+.div__text {
   position: relative;
   top: 10px;
   right: 100px;
 }
 
-.sign-in p {
+.div__text p {
   color: var(--white);
   font-size: 14px;
 }
 
-.sign-in a {
+.div__text a {
   text-decoration: none;
   color: var(--white);
   border-bottom: 1px solid var(--white);
 }
 
-.sign-in a:hover {
+.div__text a:hover {
   color: var(--violet);
   border-bottom: 1px solid var(--violet);
   transition: all 0.4s ease-in;

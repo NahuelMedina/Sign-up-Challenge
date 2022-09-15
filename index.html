@@ -21,33 +21,30 @@
     <title>Sign-up</title>
   </head>
   <body>
-    <section class="div-container">
-      <div class="div-card">
-        <div class="div-img">
+    <main class="main">
+      <div class="card__container">
+        <div class="card__container__logo">
           <img src="/assets/Zeronet_logo.png" alt="logo empresa" />
         </div>
-        <form action="sign-up">
-          <label for="user"></label>
+        <form action="sign-up" class="card__container__form">
           <input type="text" placeholder="User" id="user" required />
-          <label for="email"></label>
           <input type="email" placeholder="Email" id="email" required />
-          <label for="password"></label>
           <input
             type="password"
             placeholder="Password"
             id="password"
             required
           />
-          <div class="div-button">
+          <div class="btn__container">
             <button type="submit">
               SIGN UP <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
         </form>
       </div>
-      <div class="sign-in">
+      <div class="div__question">
         <p>Already have an accout? <a href="#">sign in</a></p>
       </div>
-    </section>
+    </main>
   </body>
 </html>

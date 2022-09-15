@@ -1,15 +1,15 @@
 @media (max-width: 450px) {
-  .div-container {
+  .main {
     width: 100vw;
     height: 100vh;
   }
 
-  .div-img {
+  .card__container__logo {
     position: relative;
     bottom: 60px;
   }
 
-  .div-card {
+  .card__container {
     background: none;
     box-shadow: none;
     max-width: 50%;
@@ -17,36 +17,31 @@
     gap: 0;
   }
 
-  .div-card form {
+  .card__container__form {
     gap: 0;
   }
 
-  .div-card input {
-    background-color: var(--white);
+  .card__container input {
+    background-color: var(--violet-sec);
     opacity: 0.4;
     height: 50px;
     color: var(--white);
     max-width: 300px;
-  }
-
-  .div-card input::placeholder {
     padding-left: 10px;
   }
 
-  .div-card input:focus {
+  .card__container input:focus {
     background-color: var(--violet-sec);
     border-bottom: none;
   }
 
-  .div-button button {
+  .btn__container button {
     box-shadow: none;
   }
 
-  .sign-in {
+  .div__text {
     top: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    left: 0;
+    text-align: center;
   }
 }
